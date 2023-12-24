@@ -100,11 +100,31 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+  p {
+    width: 85%;
+  }
   #banner {
     height: auto;
     width: 100%;
   }
-  .image-container {
+  body {
+    margin: 0;
+  }
+  body #blog {
+    margin: 0;
+    width: 100%;
+  }
+  body #blog .post {
+    width: 100%;
+  }
+  body #blog .post .image-container img {
+    width: 100%;
+    max-width: none;
+  }
+  body #blog .images {
+    margin-bottom: 0;
+  }
+  body #blog .images .image-container {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

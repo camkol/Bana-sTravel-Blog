@@ -101,11 +101,34 @@ footer {
   text-align: center;
 }
 @media only screen and (max-width: 480px) {
+  p {
+    width: 85%;
+  }
   #banner {
     height: auto;
     width: 100%;
   }
-  .image-container {
-    width: 100%;
+  body {
+    margin: 0;
+
+    #blog {
+      margin: 0;
+      width: 100%;
+      .post {
+        width: 100%;
+        .image-container {
+          img {
+            width: 100%;
+            max-width: none;
+          }
+        }
+      }
+      .images {
+        margin-bottom: 0;
+        .image-container {
+          width: 100%;
+        }
+      }
+    }
   }
 }
