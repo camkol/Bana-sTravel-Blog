@@ -4,9 +4,9 @@
 
 1. HTML
 2. CSS
-   -SASS
+   - SASS
 
 ## Notes
 
--Added SASS
--Made Responsive
+- Added SASS
+- Made Responsive
